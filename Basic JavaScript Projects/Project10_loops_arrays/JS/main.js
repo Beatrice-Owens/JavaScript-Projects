@@ -39,11 +39,13 @@ function constant_function() {
     document.getElementById("Constant").innerHTML = animal.name + " is " + animal.color + ".";
 }
 
+//let function
 function let_function() {
     let a = 9;
     document.getElementById("Lets").innerHTML = a;
 }
 
+//object creation
 let animal = {
     type: "cat ", 
     name: "Momo ",
