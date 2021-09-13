@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--link to Google servers serving jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<script>
+//checking to see if the entire document is ready, if yes do function
+$(document).ready(function() {
+    $("html").append( //target html tag to insert content
+        "<body>\
+            <div id='container'>\
+                <div id='inner'>\
+                    <h1>Basic jQuery</h1>\
+                    <p id='1'>Paragraph 1</p>\
+                    <p id='2'>Paragraph 2</p>\
+                    <p id='3'>Paragraph 3</p>\
+                </div>\
+            </div>\
+        </body>"
+    );
+    $("#2").css({"color":"red"}); //target id "2" and modify css property color to red
+    $('#3').click(function() { //when mouse clicks on id "3", execute function to hid <h1>
+        $('h1').hide();
+    });
+    $("p").on({ //multiple event responses: whenever a <p> element is clicked or mouseovered = console mssg
+        "click": function() { console.log( "clicked!" ); },
+        "mouseover": function() { console.log( "hovered!" ); }
+    })
+    $("#1").click(function() { //When id "1" is clicked it will fade out over 1.5s
+        $("#1").fadeOut(1500);
+    })
+});
+
+</script>
+
+</html>
