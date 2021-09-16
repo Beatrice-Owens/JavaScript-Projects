@@ -3,9 +3,6 @@
 A repository for JavaScript-based projects while studying at The Tech Academy.
 
 ## Projects
-* [Pizza](#Pizza Menu)
-* [Tic-Tac-Toe](#Tic-Tac-Toe Game)
-* [Calculator](#Calculator)
 
 ### Pizza Menu
 This is an example of an interactive pizza menu webpage. It is styled with CSS and contains a full menu users can use to customize their pizza, which uses JavaScript to return a receipt.
