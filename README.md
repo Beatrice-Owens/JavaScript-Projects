@@ -18,4 +18,4 @@ A website containing a tic-tac-toe game made using HTML, CSS for styling, and Ja
 A webpage containing a calculator app. It is created with HTML, CSS, and JavaScript. 
 
 ###Portfolio
-A live portfolio website. It features integrated video, slideshow images and image container, forms, numerous CSS stylings and JavaScript effects. 
+A live portfolio website. It features integrated video, slideshow images, and image container, forms, numerous CSS stylings and JavaScript effects. 
