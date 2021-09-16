@@ -3,8 +3,8 @@
 A repository for JavaScript-based projects while studying at The Tech Academy.
 
 ## Projects
-* [Pizza Menu](#Pizza Menu)
-* [Tic-Tac-Toe Game](#Tic-Tac-Toe Game)
+* [Pizza](#Pizza Menu)
+* [Tic-Tac-Toe](#Tic-Tac-Toe Game)
 * [Calculator](#Calculator)
 
 ### Pizza Menu
